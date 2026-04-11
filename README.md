@@ -1,5 +1,4 @@
-# UR3 Robot
-UR3 WebAR Project
+# Osciloscopio
 
 Instructions:
 1. Place all files in the same folder:
