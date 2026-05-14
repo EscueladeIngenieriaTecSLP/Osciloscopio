@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>UR3</title>
+    <title>Osciloscopio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <!-- Librerías principales -->
     <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
@@ -56,8 +56,8 @@
       <a-assets>
         <!-- IMPORTANTE: evita espacios en el id -->
         <video
-          id="UR3"
-          src="ur3-video.mp4"
+          id="Osciloscopio"
+          src="Osciloscopio.mp4"
           preload="auto"
           playsinline
           webkit-playsinline
@@ -66,9 +66,9 @@
       </a-assets>
 
       <!-- Tu marcador -->
-      <a-marker type="pattern" url="marker.patt" id="marker">
+      <a-marker type="pattern" url="marker10.patt" id="marker">
         <a-video
-          src="#UR3"
+          src="#Osciloscopio"
           width="1"
           height="2"
           position="0 0 0"
@@ -77,7 +77,7 @@
         </a-video>
 
         <a-text
-          value="UR3 | Video demo"
+          value="Osciloscopio | Video demo"
           position="0 1.2 0"
           rotation="-90 0 0"
           scale="0.4 0.4 0.4"
